@@ -10,5 +10,18 @@
         android:name="com.example.md0101_Splash.SplashFragment"
         android:label="fragment_first"
         tools:layout="@layout/splash_fragment">
+        <action
+            android:id="@+id/action_firstFragment_to_secondFragment"
+            app:destination="@id/topGateFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/topGateFragment"
+        android:name="com.example.md0201_TopGate.TopGateFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/splash_fragment">
+        <action
+            android:id="@+id/action_TopGateFragment_to_anotherFragment"
+            app:destination="@id/firstFragment" />
     </fragment>
 </navigation>
