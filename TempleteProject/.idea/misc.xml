@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.302536231884058" />
+        <entry key="app/src/main/res/layout/activity_second.xml" value="0.302536231884058" />
         <entry key="app/src/main/res/layout/blank_fragment.xml" value="0.302536231884058" />
         <entry key="app/src/main/res/layout/md0101_splash_fragment.xml" value="0.302536231884058" />
       </map>
