@@ -6,7 +6,10 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.302536231884058" />
         <entry key="app/src/main/res/layout/activity_second.xml" value="0.302536231884058" />
         <entry key="app/src/main/res/layout/blank_fragment.xml" value="0.302536231884058" />
+        <entry key="app/src/main/res/layout/first_fragment.xml" value="0.2453125" />
         <entry key="app/src/main/res/layout/md0101_splash_fragment.xml" value="0.302536231884058" />
+        <entry key="app/src/main/res/layout/splash_fragment.xml" value="0.20364583333333333" />
+        <entry key="app/src/main/res/layout/top_gate_fragment.xml" value="0.2453125" />
       </map>
     </option>
   </component>

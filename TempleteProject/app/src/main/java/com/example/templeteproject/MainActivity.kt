@@ -5,6 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.content.Intent
 
+// Fragment遷移で要するライブラリ
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+
 // ログを出力するためのライブラリ
 import android.util.Log
 
@@ -22,14 +26,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         // 画面レイアウト読み込み
         setContentView(R.layout.activity_main)
-
-        val button = findViewById<Button>(R.id.btnMoveScreen)
-        button.setOnClickListener {
-            // 画面遷移サンプルボタンをタップしたときの処理
-            Log.d("tagtagtag", "ログ出力テスト")
-
-            val intent = Intent(this, SecondActivity::class.java)
-            startActivity(intent)
-        }
     }
 }
